@@ -32,6 +32,7 @@ namespace MediaS.API {
                 app.UseDeveloperExceptionPage();
             }
             else {
+                // TODO: add using of exception handler
                 app.UseHsts();
             }
 
